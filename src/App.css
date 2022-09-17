@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.App > h1 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #622b34;
+}
+.App {
+  text-align: center;
+}
+
+.tableForm {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 30px;
+}
+
+#customized-dialog-title{
+  text-align: center;
+  color: #421e24;
+  font-weight: 700;
+}
+
+th,
+td {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .2rem;
+  padding-top: 5px;
+  font-weight: 400;
+}
+
+#paymentBtn{
+  background-color: #622b34 ;
+  color: #f2b68a;
+  font-weight: 600;
+}
+
+
+.CreditSummary {
+  margin: 10px;
+}
+
+.table {
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+tr:nth-child(even) {
+  background-color: #622b34;
+  color: #f2b68a;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2b68a;
+  color: #000000;
+}
+th {
+  background-color: #421e24;
+  color: #fff;
+}
+
+.calculateForm {
+  background-color: #4e1921;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  max-width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 3rem;
+}
+
+.divForm {
+  background-color: #4e1921;
+}
+
+div > label {
+  background-color: #4e1921 !important;
+  color: #fef5ac;
+}
+
+div > label > input,
+select {
+  margin-left: 10px;
+  padding: 3px;
+  background-color: #fdd8f6 !important;
+  border-radius: 5px;
+}
+
+form > button{
+  background-color: #fdd8f6 !important;
+}
+
+div > label > select {
+  cursor: pointer;
+  color: #010644;
+}
+
+button {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.taxInformation {
+  color: #622b34;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
