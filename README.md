@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Kredi Hesaplama Tablosu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeye İlk Bakış
 
-## Available Scripts
+Merhaba, ben Furkan Akif İŞLEK. Öncelikle bu benim ilk practicum heyecanım. Bunun için sizlere teşekkür ederim. İlk olmasına rağmen ortaya çıkardığım projeden onur duyduğumu da belirtmek isterim. 
+<br/><br/>
+Beni bu projede en çok zorlayan olay bankacılık kavramlarına ve formüllerine uzak olmam oldu. React çok severek kullandığım her gün yeni bilgiler edindiğim bir kütüphanedir. Projemde 2 defa useContext kullandım. Projem çok dinamik bir yapıya sahip oldu. Umarım beğenirsiniz. 
 
-In the project directory, you can run:
 
-### `npm start`
+### Anasayfa
+![image](https://user-images.githubusercontent.com/76527169/190879398-54ada9f5-e94f-454a-b5a1-ff3f9c8380e3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Burada projeye girdiğinizde karşınıza gelen ekranı görüyorsunuz. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Veriler Sonrası Kredi Özet Tablosu
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/76527169/190879429-99751425-de59-4c0e-96b8-4f2da7ec4e6a.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Burada verileri girdikten sonra ortaya çıkan kredi özet tablosunu görüyorsunuz. Bu tablo ile beraber "Ödeme Planını Göster" butonu çıkmaktadır. Bu buton detaylı kredi özeti popup'ını açacaktır. Kredi özet tablosunda dikkatinizi çekmek istediğim bir farklı yer ise useRef kullarak yaptığım "Taksit Tutarı" isimlendirmesi oldu. Mesela aylık ödeme seçtiğinizde "Aylık Taksit Tutarı", haftalık seçtiğinizde "Haftalık Taksit Tutarı" yazmaktadır. Ayrıca kredi özet tablosu için useContext Hook'u kullandım.
 
-### `npm run build`
+### Ödeme Planı Tablosu
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/76527169/190879487-948d6e29-1e1d-4658-9106-8659ed414c3f.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Burada useContext Hooku ile çektiğim ve for ile döndürüp array içine aldığım değerleri map ile tabloya yazdırarak sonucu elde ettim. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
